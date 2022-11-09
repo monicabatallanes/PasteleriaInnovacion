@@ -3,18 +3,39 @@
     padding: 0;
 }
 
+nav{
+    width: 100%;
+    background-color: azure;
+    display: inline-flex;
+}
+ 
+img{
+    margin: 15px;
+    width: 40px;
+    height: 40px;
+
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+}
+
+a{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
 section{
-    background-image: url(./assets/Pastelería\ Abuela.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: 0;
-    opacity: 0.6;
+    background-color: rgb(214, 169, 154);
 }
 
 h1, h2{
     display: flex;
     justify-content: center;
-    margin: 20px;
+    padding-top: 30px;
 }
 
 .logo{
@@ -25,17 +46,42 @@ h1, h2{
     margin: 50px;
 }
 
+table, tr, th, td{
+    border-collapse: collapse;
+    border: 3px solid black;
+    margin: 10px;
+    padding: 15px;
+}
+
 .tablas{
     width: 700px;
     height: 300px;
     display: flex;
     justify-content: space-around;
-    margin: 20px;
+    padding: 20px;
    
+}
+
+h3{
+    padding: 30px;
 }
 
 .form{
     width: 75%;
-    margin: 40px;
+    padding: 40px;
+}
+
+.boton{
+    border-radius: 50%;
+    background-color: darkred;
+    color: white;
+    padding: 10px;
+    margin-left: 60px;
+}
+
+footer{
+    padding: 20px;
+    background-color: black;
+    color: white;
 }
 
